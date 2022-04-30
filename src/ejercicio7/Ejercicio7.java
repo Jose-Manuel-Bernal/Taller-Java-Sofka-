@@ -3,7 +3,7 @@ package ejercicio7;
 import java.util.Scanner;
 
 public class Ejercicio7 {
-    public static void main(String[] args) {
+    public static void introducirNumeroMayorQueCero (){
         int numero;
         Scanner lector = new Scanner(System.in);
         do {
@@ -12,8 +12,5 @@ public class Ejercicio7 {
         }
         while (numero<0);
         System.out.println("Introdujo el : "+ numero);
-    }
-    public static void introducirNumeroMayorQueCero (){
-
     }
 }
